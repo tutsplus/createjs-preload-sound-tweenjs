@@ -1,0 +1,71 @@
+#wrapper{
+width:600px;
+margin: 50px auto;
+}
+#player{
+	position:relative;
+}
+
+#play_btn{
+  position: absolute;
+  top: 110px;
+  left: 206px; 
+}
+#pause_btn{
+	position:absolute;
+	top:113px;
+	left:153px;
+}
+#stop_btn{
+	position:absolute;
+	top:113px;
+	left:259px;
+}
+#fwd_btn{
+  position: absolute;
+  top: 113px;
+  left: 312px; 
+}
+#back_btn{
+  position: absolute;
+  top: 113px;
+  left: 100px; 
+}
+#scroller{
+	color: #c5e2f7;
+	white-space: nowrap;
+}
+#scroller_container {
+ position: absolute;
+ top: 30px; 
+ left: 130px;
+ width: 250px;
+ height: 40px;
+}
+
+#scroller p {
+ padding: 0;
+}
+
+#time{
+position:absolute;
+top:45px;
+left: 30px;
+width:90px;
+height:30px;
+color: #c5e2f7;
+font-size:15px;
+}
+
+#progressbar{
+position:absolute;
+top:80px;
+left:138px;
+width:250px;
+height:5px;
+}
+#volumebar{
+	position:absolute;
+	top:5px;
+	left:25px;
+}
